@@ -1,0 +1,26 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.15.0-79-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -l vcs.log -sverilog -kdb -debug_access+all using_define.sv
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Wed Aug 23 03:05:39 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'using_define.sv'
+
+Error-[SE] Syntax error
+  Following verilog source has syntax error :
+  	Constructor should not have a return type
+  "using_define.sv", 4: token is 'new'
+  	function void new(input int datain = 0);
+                           ^
+
+1 error
+CPU time: .066 seconds to compile

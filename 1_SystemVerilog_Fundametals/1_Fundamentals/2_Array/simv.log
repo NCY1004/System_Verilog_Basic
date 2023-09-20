@@ -1,0 +1,14 @@
+Command: /home/stone/System_Verilog_Study/1_SystemVerilog_Fundametals/1_Fundamentals/2_Array/./simv -l simv.log +ntb_random_seed=1
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 18 23:47 2023
+size of arr1 : 8
+size of arr2 : 4
+Value if first element : 0
+Value if first element : 1
+Value of all elements of arr2 : '{'h1, 'h0, 'h1, 'h1} 
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Mon Sep 18 23:47:51 2023

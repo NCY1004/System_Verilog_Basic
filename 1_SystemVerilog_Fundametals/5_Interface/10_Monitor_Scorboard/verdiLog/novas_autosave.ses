@@ -1,0 +1,61 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+postSimFile = /home/stone/System_Verilog_Study/5_Interface/10_Monitor_Scorboard/novas.fsdb
+syncTime = 0
+viewport = 478 165 900 700 0 0 278 898
+activeNode = "tb"
+activeScope = "tb"
+activeFile = "Monitor_Scorboard.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 58
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb"
+multipleSelection = 1 58 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "/home/stone/System_Verilog_Study/5_Interface/10_Monitor_Scorboard/simv.daidir" 
+invokeDir = /home/stone/System_Verilog_Study/5_Interface/10_Monitor_Scorboard
+[hb.sourceTab.1]
+scope = tb
+File = /home/stone/System_Verilog_Study/5_Interface/10_Monitor_Scorboard/Monitor_Scorboard.sv
+Line = 59
+[nMemoryManager]
+WaveformFile = /home/stone/System_Verilog_Study/5_Interface/10_Monitor_Scorboard/novas.fsdb
+UserActionNum = 0
+nMemWindowNum = 0

@@ -1,0 +1,100 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/stone/System_Verilog_Study/5_Interface/1_Interface_simple_rtl/simv" \
+           -args "+ntb_random_seed=1"
+debImport "-dbdir" \
+          "/home/stone/System_Verilog_Study/5_Interface/1_Interface_simple_rtl/simv.daidir"
+debLoadSimResult \
+           /home/stone/System_Verilog_Study/5_Interface/1_Interface_simple_rtl/novas.fsdb
+wvCreateWindow
+wvResizeWindow -win $_nWave2 732 267 1118 616
+wvZoom -win $_nWave2 88.361381 89.233010
+srcHBSelect "tb.dut" -win $_nTrace1
+srcHBDrag -win $_nTrace1
+wvRenameGroup -win $_nWave2 {G1} {dut}
+wvAddSignal -win $_nWave2 "/tb/dut/a\[3:0\]" "/tb/dut/b\[3:0\]" \
+           "/tb/dut/sum\[4:0\]"
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("dut" 3)}
+wvSetPosition -win $_nWave2 {("dut" 3)}
+srcHBDrag -win $_nTrace1
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvRenameGroup -win $_nWave2 {G2} {tb}
+wvSetPosition -win $_nWave2 {("tb" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 0)}
+wvAddSubGroup -win $_nWave2 -holdpost {aif(add_if)}
+wvAddSignal -win $_nWave2 "/tb/aif/a\[3:0\]" "/tb/aif/b\[3:0\]" \
+           "/tb/aif/sum\[4:0\]"
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 3)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 3)}
+wvSetPosition -win $_nWave2 {("tb" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 3)}
+wvSetCursor -win $_nWave2 88.557713 -snap {("aif(add_if)" 1)}
+wvSelectSignal -win $_nWave2 {( "tb/aif(add_if)" 1 )} 
+wvSelectGroup -win $_nWave2 {tb}
+wvSelectGroup -win $_nWave2 {tb/aif(add_if)}
+wvSetCursor -win $_nWave2 99.932416 -snap {("G3" 0)}
+wvSetCursor -win $_nWave2 99.988511 -snapdebExit
+0)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 600.334412 -snap {("G3" 0)}
+wvResizeWindow -win $_nWave2 722 286 1118 431
+wvSetCursor -win $_nWave2 175.415318 -snap {("G3" 0)}
+wvSetCursor -win $_nWave2 241.877023 -snap {("aif(add_if)" 3)}
+wvSetCursor -win $_nWave2 257.130529 -snap {("G3" 0)}
+wvSetCursor -win $_nWave2 160.161812 -snap {("dut" 2)}
+wvSetCursor -win $_nWave2 482.664509 -snap {("aif(add_if)" 1)}
+wvSetCursor -win $_nWave2 376.979504 -snap {("G3" 0)}
+wvSetCursor -win $_nWave2 173.236246 -snap {("dut" 1)}
+wvSetCursor -win $_nWave2 173.236246 -snap {("dut" 1)}
+wvSetCursor -win $_nWave2 203.743258 -snap {("dut" 2)}
+wvSetCursor -win $_nWave2 290.906149 -snap {("dut" 2)}
+wvSetCursor -win $_nWave2 233.160734 -snap {("dut" 3)}
+wvSelectSignal -win $_nWave2 {( "dut" 3 )} 
+wvSelectSignal -win $_nWave2 {( "dut" 3 )} 
+wvSetRadix -win $_nWave2 -format UDec
+wvSelectSignal -win $_nWave2 {( "tb/aif(add_if)" 3 )} 
+wvSelectSignal -win $_nWave2 {( "tb/aif(add_if)" 3 )} 
+wvSetRadix -win $_nWave2 -format Ascii
+wvZoomAll -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "tb/aif(add_if)" 3 )} 
+wvSetRadix -win $_nWave2 -format UDec
+wvSetCursor -win $_nWave2 205.922330 -snap {("aif(add_if)" 1)}
+debExit

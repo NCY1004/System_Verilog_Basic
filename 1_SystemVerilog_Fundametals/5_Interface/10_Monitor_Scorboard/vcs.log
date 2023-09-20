@@ -1,0 +1,20 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.15.0-83-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -l vcs.log -sverilog -kdb -debug_access+all Monitor_Scorboard.sv add.v \
++vcs+vcdpluson
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Thu Sep 14 03:19:29 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+

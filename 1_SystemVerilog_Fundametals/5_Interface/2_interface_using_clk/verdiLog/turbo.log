@@ -1,0 +1,8 @@
+Command Line: /usr/stone/software/verdi/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -ssf novas.fsdb -undockWin -nologo
+uname(Linux ubuntu 5.15.0-83-generic #92~20.04.1-Ubuntu SMP Mon Aug 21 14:00:49 UTC 2023 x86_64)
+type= DS_SCOPE element= 1 field= 1
+VERILOG tb
+-----
+second field= DebussyLib
+third field= tb
+au time 1379.105150 5.014438 9.841377 delta 400183296 400183296 total 775786496 775786496

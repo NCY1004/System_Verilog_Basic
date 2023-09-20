@@ -1,0 +1,14 @@
+Command: /home/stone/System_Verilog_Study/1_SystemVerilog_Fundametals/1_Fundamentals/1_Datatype/./simv -l simv.log +ntb_random_seed=1
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 18 23:47 2023
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+value of var1 : -127
+value of var2 : 130
+value of fix_time : 13000
+value of fix_time2 : 13000
+value of real_time : 12670
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 12670 ps
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Mon Sep 18 23:47:25 2023

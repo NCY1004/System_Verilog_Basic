@@ -1,0 +1,170 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                4.0557260513305664,
+                0.0,
+                0.53229300000000002,
+                295480,
+                377404,
+                1694140541.802891,
+                27537216093186
+            ],
+            "child_modules": {
+                "std": 1,
+                "tb": 1
+            },
+            "end_perf": [
+                4.0700650215148926,
+                0.0,
+                0.53570300000000004,
+                296392,
+                377404,
+                27537261925666,
+                0,
+                0
+            ],
+            "nRouts": 5,
+            "nQuads": 0,
+            "nMops": 0
+        },
+        "std": {
+            "start_perf": [
+                4.0701310634613037,
+                0.0,
+                0.53576900000000005,
+                296392,
+                377404,
+                1694140541.817296,
+                27537262100546
+            ],
+            "child_modules": {},
+            "Compiled": "Yes",
+            "Compiled Times": 3,
+            "end_perf": [
+                4.0792851448059082,
+                0.0,
+                0.53909700000000005,
+                296776,
+                377404,
+                27537291370178,
+                8589934594,
+                0
+            ],
+            "nRouts": 33,
+            "nQuads": 218,
+            "svclass": [
+                "$vcs_nba_dyn_obj",
+                0,
+                35,
+                2,
+                2,
+                0,
+                "sigprop$$",
+                0,
+                35,
+                2,
+                2,
+                0,
+                "process",
+                0,
+                200,
+                8,
+                8,
+                0,
+                "event",
+                0,
+                34,
+                2,
+                2,
+                0,
+                "mailbox",
+                0,
+                140,
+                9,
+                9,
+                0,
+                "semaphore",
+                0,
+                84,
+                5,
+                5,
+                0
+            ],
+            "nMops": 528
+        },
+        "tb": {
+            "start_perf": [
+                4.0793130397796631,
+                0.0,
+                0.53912599999999999,
+                296776,
+                377404,
+                1694140541.826478,
+                27537291426210
+            ],
+            "child_modules": {},
+            "end_perf": [
+                4.0859839916229248,
+                0.0,
+                0.544709,
+                299076,
+                377404,
+                27537312781858,
+                12884901889,
+                0
+            ],
+            "Compiled Times": 3,
+            "Compiled": "Yes",
+            "nRouts": 24,
+            "nQuads": 91,
+            "nMops": 225
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_stime_sec": 0.548597,
+            "ru_utime_sec": 0.0,
+            "ru_maxrss_kb": 116156,
+            "ru_nivcsw": 33,
+            "ru_minflt": 11756,
+            "ru_majflt": 1358,
+            "ru_nvcsw": 1066
+        },
+        "ru_childs_end": {
+            "ru_stime_sec": 0.313967,
+            "ru_utime_sec": 0.012158,
+            "ru_maxrss_kb": 109508,
+            "ru_nivcsw": 28,
+            "ru_minflt": 5168,
+            "ru_majflt": 262,
+            "ru_nvcsw": 234
+        },
+        "cpu_cycles_end": 27537330540866,
+        "peak_mem_kb": 377404
+    },
+    "CompUnits": {},
+    "reusePaths": {
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "g7hgQ_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.2/_10588_archive_1.a",
+            "objects": [
+                [
+                    "amcQwB.o",
+                    115386
+                ]
+            ],
+            "size": 115386
+        }
+    ]
+}

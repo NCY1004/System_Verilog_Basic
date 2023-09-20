@@ -1,0 +1,10 @@
+Command: /home/stone/System_Verilog_Study/1_SystemVerilog_Fundametals/1_Fundamentals/4_Loops_repetiion_array/./simv -l simv.log +ntb_random_seed=1
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 19 00:25 2023
+arr : '{0, 1, 2, 3, 4, 5, 6, 7, 8, 9} 
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.130 seconds;       Data structure size:   0.0Mb
+Tue Sep 19 00:25:21 2023

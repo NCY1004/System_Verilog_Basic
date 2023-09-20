@@ -1,0 +1,53 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/stone/System_Verilog_Study/5_Interface/2_blocking_operator/simv" \
+           -args "+ntb_random_seed=1"
+debImport "-dbdir" \
+          "/home/stone/System_Verilog_Study/5_Interface/2_blocking_operator/simv.daidir"
+debLoadSimResult \
+           /home/stone/System_Verilog_Study/5_Interface/2_blocking_operator/novas.fsdb
+wvCreateWindow
+wvResizeWindow -win $_nWave2 514 405 1211 539
+srcHBDrag -win $_nTrace1
+wvRenameGroup -win $_nWave2 {G1} {tb}
+wvSetPosition -win $_nWave2 {("tb" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 0)}
+wvAddSubGroup -win $_nWave2 -holdpost {aif(add_if)}
+wvAddSignal -win $_nWave2 "/tb/aif/a\[3:0\]" "/tb/aif/b\[3:0\]" \
+           "/tb/aif/sum\[4:0\]" "/tb/aif/clk"
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 4)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 4)}
+wvSetPosition -win $_nWave2 {("tb" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 4)}
+wvSetCursor -win $_nWave2 37.132353 -snap {("G2" 0)}
+srcHBDrag -win $_nTrace1
+wvSetPosition -win $_nWave2 {("tb" 0)}
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvRenameGroup -win $_nWave2 {G2} {dut}
+wvAddSignal -win $_nWave2 "/tb/dut/a\[3:0\]" "/tb/dut/b\[3:0\]" \
+           "/tb/dut/sum\[4:0\]" "/tb/dut/clk"
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetCursor -win $_nWave2 37.033333 -snap {("G3" 0)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 382.215686 -snap {("dut" 2)}
+wvSetCursor -win $_nWave2 632.735294 -snap {("dut" 4)}
+wvSetCursor -win $_nWave2 202.000000 -snap {("aif(add_if)" 3)}
+wvSetCursor -win $_nWave2 84.166667 -snap {("aif(add_if)" 1)}
+wvSetCursor -win $_nWave2 174.274510 -snap {("aif(add_if)" 1)}
+wvTpfCloseForm -win $_nWave2
+wvGetSignalClose -win $_nWave2
+wvCloseWindow -win $_nWave2
+debExit

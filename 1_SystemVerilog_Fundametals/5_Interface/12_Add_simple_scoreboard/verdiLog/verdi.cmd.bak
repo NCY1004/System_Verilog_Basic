@@ -1,0 +1,30 @@
+verdiSetPrefEnv -bUndockNewCreatedWindow "on"
+simSetSimulator "-vcssv" -exec \
+           "/home/stone/System_Verilog_Study/5_Interface/12_Add_simple_scoreboard/simv" \
+           -args "+ntb_random_seed=1"
+debImport "-dbdir" \
+          "/home/stone/System_Verilog_Study/5_Interface/12_Add_simple_scoreboard/simv.daidir"
+debLoadSimResult \
+           /home/stone/System_Verilog_Study/5_Interface/12_Add_simple_scoreboard/novas.fsdb
+wvCreateWindow
+wvResizeWindow -win $_nWave2 62 229 960 332
+srcHBDrag -win $_nTrace1
+wvRenameGroup -win $_nWave2 {G1} {dut}
+wvAddSignal -win $_nWave2 "/tb/dut/a\[3:0\]" "/tb/dut/b\[3:0\]" \
+           "/tb/dut/sum\[4:0\]" "/tb/dut/clk"
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetCursor -win $_nWave2 29.997919 -snap {("dut" 2)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvTpfCloseForm -win $_nWave2
+wvGetSignalClose -win $_nWave2
+wvCloseWindow -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "500" "182" "896" "700"
+debExit

@@ -1,0 +1,29 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.15.0-79-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -l vcs.log -sverilog -kdb -debug_access+all funtion.sv
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Tue Aug 22 02:01:16 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'funtion.sv'
+Top Level Modules:
+       tb
+No TimeScale specified
+
+Error-[SV-DOSIF] Delay or synchronization in function
+funtion.sv, 21
+tb, "#(10) ;"
+  Function 'display_ain_bin' has illegal use of delay or synchronization
+  The uses can be wait, delay, clocking block assign, fork-join and other task
+  calls with delays
+
+1 error
+CPU time: .092 seconds to compile

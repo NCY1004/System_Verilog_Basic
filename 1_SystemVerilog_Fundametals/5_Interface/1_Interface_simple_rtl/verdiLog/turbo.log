@@ -1,0 +1,3 @@
+Command Line: /usr/stone/software/verdi/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -ssf novas.fsdb -undockWin -nologo
+uname(Linux ubuntu 5.15.0-83-generic #92~20.04.1-Ubuntu SMP Mon Aug 21 14:00:49 UTC 2023 x86_64)
+au time 13.818449 0.600541 2.721320 delta 331980800 331980800 total 707584000 707584000

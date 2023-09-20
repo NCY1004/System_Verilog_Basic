@@ -1,0 +1,30 @@
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '5.15.0-83-generic' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Command: vcs -l vcs.log -sverilog -kdb -debug_access+all Parameterized_Mailbox.sv \
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Sun Sep 10 22:55:37 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'Parameterized_Mailbox.sv'
+Top Level Modules:
+       tb
+No TimeScale specified
+
+Error-[SV-TMIM] Type mismatch in mailbox method
+Parameterized_Mailbox.sv, 25
+  Argument 'temp' to mailbox method 'put' does not match with the type 
+  'transaction' of the mailbox 'this.mbx'.
+  Please make sure that type of the argument is equivalent to type of mailbox.
+  Please refer to SV LRM (IEEE Std 1800) for type equivalence rules.
+
+1 error
+CPU time: .105 seconds to compile

@@ -1,0 +1,443 @@
+{
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "perf": [
+        {
+            "stat": [
+                "main",
+                "entry",
+                0.010445833206176758,
+                0.014321,
+                0.015938000000000001,
+                200688,
+                200688,
+                0.0,
+                0.0,
+                1694687099.7583749,
+                77642178268479
+            ],
+            "sub": [
+                {
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "entry",
+                        0.13437390327453613,
+                        0.015108999999999999,
+                        0.022664,
+                        209644,
+                        210444,
+                        0.0,
+                        0.0,
+                        1694687099.882303,
+                        77642574062911
+                    ],
+                    "sub": []
+                },
+                {
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "exit",
+                        0.14326381683349609,
+                        0.021787999999999998,
+                        0.026145000000000002,
+                        312772,
+                        377780,
+                        0.0,
+                        0.0,
+                        1694687099.8911929,
+                        77642602466847
+                    ],
+                    "sub": []
+                },
+                {
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "entry",
+                        0.14623093605041504,
+                        0.025585,
+                        0.026145000000000002,
+                        294644,
+                        377780,
+                        0.0,
+                        0.0,
+                        1694687099.89416,
+                        77642612016255
+                    ],
+                    "sub": [
+                        {
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "entry",
+                                0.14865899085998535,
+                                0.027071999999999999,
+                                0.027071999999999999,
+                                295092,
+                                377780,
+                                0.0,
+                                0.0,
+                                1694687099.8965881,
+                                77642619655711
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "exit",
+                                0.17034482955932617,
+                                0.029266,
+                                0.037627000000000001,
+                                296212,
+                                377780,
+                                0.0061710000000000003,
+                                0.002186,
+                                1694687099.9182739,
+                                77642688965695
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "entry",
+                                0.17039299011230469,
+                                0.029287000000000001,
+                                0.037655000000000001,
+                                296212,
+                                377780,
+                                0.0061710000000000003,
+                                0.002186,
+                                1694687099.9183221,
+                                77642689050943
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "exit",
+                                0.17383289337158203,
+                                0.029287000000000001,
+                                0.041082,
+                                298188,
+                                377780,
+                                0.0061710000000000003,
+                                0.002186,
+                                1694687099.921762,
+                                77642700091423
+                            ],
+                            "sub": []
+                        }
+                    ]
+                },
+                {
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "exit",
+                        0.17386293411254883,
+                        0.029287000000000001,
+                        0.041112999999999997,
+                        298188,
+                        377780,
+                        0.0061710000000000003,
+                        0.002186,
+                        1694687099.921792,
+                        77642700127711
+                    ],
+                    "sub": []
+                },
+                {
+                    "stat": [
+                        "doGAToPass2",
+                        "entry",
+                        0.17387294769287109,
+                        0.029287000000000001,
+                        0.041123,
+                        298188,
+                        377780,
+                        0.0061710000000000003,
+                        0.002186,
+                        1694687099.921802,
+                        77642700158207
+                    ],
+                    "sub": [
+                        {
+                            "stat": [
+                                "DoPass2",
+                                "entry",
+                                0.19033980369567871,
+                                0.029451999999999999,
+                                0.042074,
+                                296632,
+                                377780,
+                                0.015233999999999999,
+                                0.0085850000000000006,
+                                1694687099.9382689,
+                                77642752834015
+                            ],
+                            "sub": []
+                        },
+                        {
+                            "stat": [
+                                "DoPass2",
+                                "exit",
+                                0.20723581314086914,
+                                0.038858999999999998,
+                                0.047981999999999997,
+                                305124,
+                                377780,
+                                0.015233999999999999,
+                                0.010141000000000001,
+                                1694687099.9551649,
+                                77642806746719
+                            ],
+                            "sub": []
+                        }
+                    ]
+                },
+                {
+                    "stat": [
+                        "doGAToPass2",
+                        "exit",
+                        0.20927095413208008,
+                        0.038858999999999998,
+                        0.050016999999999999,
+                        305124,
+                        377780,
+                        0.015233999999999999,
+                        0.010141000000000001,
+                        1694687099.9572001,
+                        77642813252991
+                    ],
+                    "sub": []
+                }
+            ]
+        },
+        {
+            "stat": [
+                "main",
+                "exit",
+                0.20947480201721191,
+                0.038858999999999998,
+                0.050222000000000003,
+                305124,
+                377780,
+                0.015233999999999999,
+                0.010141000000000001,
+                1694687099.9574039,
+                77642813879295
+            ],
+            "sub": []
+        }
+    ],
+    "cycles_program_begin": 77642178070943,
+    "MlibObjs": {},
+    "PEModules": [],
+    "NameTable": {
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
+            "module",
+            1
+        ],
+        "add_if": [
+            "add_if",
+            "r1PsL",
+            "module",
+            4
+        ],
+        "_vcs_unit__4011614891": [
+            "_vcs_unit__4011614891",
+            "FtJyq",
+            "module",
+            2
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            7
+        ],
+        "add": [
+            "add",
+            "GNaSz",
+            "module",
+            6
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            3
+        ],
+        "tb": [
+            "tb",
+            "g7hgQ",
+            "module",
+            5
+        ]
+    },
+    "PrevCompiledModules": {
+        "vcs_paramclassrepository": {
+            "hEeZs_d": {
+                "mode": 4,
+                "bytes": 14722,
+                "mod": "vcs_paramclassrepository",
+                "checksum": 0,
+                "archive": "archive.3/_prev_archive_1.a",
+                "out": "hEeZs_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mode": 4,
+                "bytes": 8156,
+                "mod": "...MASTER...",
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "add": {
+            "GNaSz_d": {
+                "mode": 4,
+                "bytes": 9196,
+                "mod": "add",
+                "checksum": 0,
+                "archive": "archive.3/_prev_archive_1.a",
+                "out": "GNaSz_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mode": 4,
+                "bytes": 43042,
+                "mod": "std",
+                "checksum": 0,
+                "archive": "archive.3/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "add_if": {
+            "r1PsL_d": {
+                "mode": 4,
+                "bytes": 11488,
+                "mod": "add_if",
+                "checksum": 0,
+                "archive": "archive.3/_prev_archive_1.a",
+                "out": "r1PsL_d.o"
+            }
+        },
+        "_vcs_unit__4011614891": {
+            "FtJyq_d": {
+                "mode": 4,
+                "bytes": 43508,
+                "mod": "_vcs_unit__4011614891",
+                "checksum": 0,
+                "archive": "archive.3/_40829_archive_1.a",
+                "out": "FtJyq_d.o"
+            }
+        },
+        "tb": {
+            "g7hgQ_d": {
+                "mode": 4,
+                "bytes": 32800,
+                "mod": "tb",
+                "out": "g7hgQ_d.o",
+                "checksum": 0,
+                "archive": "archive.3/_prev_archive_1.a"
+            }
+        }
+    },
+    "cpu_cycles_pass2_start": 77642752846175,
+    "stat": {
+        "cpu_cycles_total": 635865760,
+        "ru_self_cgstart": {
+            "ru_nvcsw": 42,
+            "ru_utime_sec": 0.029472999999999999,
+            "ru_stime_sec": 0.042104000000000003,
+            "ru_maxrss_kb": 113220,
+            "ru_minflt": 11973,
+            "ru_majflt": 0,
+            "ru_nivcsw": 73
+        },
+        "ru_self_end": {
+            "ru_nvcsw": 44,
+            "ru_utime_sec": 0.038858999999999998,
+            "ru_stime_sec": 0.050248000000000001,
+            "ru_maxrss_kb": 121696,
+            "ru_minflt": 13381,
+            "ru_majflt": 0,
+            "ru_nivcsw": 74
+        },
+        "peak_mem_kb": 377780,
+        "ru_childs_cgstart": {
+            "ru_nvcsw": 25,
+            "ru_utime_sec": 0.015233999999999999,
+            "ru_stime_sec": 0.0085850000000000006,
+            "ru_maxrss_kb": 113220,
+            "ru_minflt": 5099,
+            "ru_majflt": 0,
+            "ru_nivcsw": 1
+        },
+        "cpu_cycles_cgstart": 77642752903551,
+        "nMops": 2809,
+        "nQuads": 926,
+        "totalObjSize": 160462,
+        "realTime": 0.20951390266418457,
+        "ru_childs_end": {
+            "ru_nvcsw": 26,
+            "ru_utime_sec": 0.015233999999999999,
+            "ru_stime_sec": 0.010141000000000001,
+            "ru_maxrss_kb": 113220,
+            "ru_minflt": 5342,
+            "ru_majflt": 0,
+            "ru_nivcsw": 1
+        },
+        "CodeGen(%)": 17.351598173515981,
+        "cpu_cycles_end": 77642813936703,
+        "outputSizePerQuad": 173.28509719222461,
+        "Frontend(%)": 82.648401826484019
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "text": 0,
+        "bytes": 117524,
+        "archive": "archive.3/_40829_archive_1.a"
+    },
+    "incremental": "on",
+    "CurCompileModules": [
+        "...MASTER...",
+        "vcs_paramclassrepository",
+        "_vcs_unit__4011614891",
+        "_vcs_unit__4011614891",
+        "std",
+        "add_if",
+        "tb",
+        "add"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.40829.json"
+    ],
+    "CompileStatus": "Successful",
+    "Misc": {
+        "archive_dir": "archive.3",
+        "daidir_abs": "/home/stone/System_Verilog_Study/5_Interface/11_Tweaking_monitor_scoreboard/simv.daidir",
+        "vcs_version": "O-2018.09-SP2_Full64",
+        "csrc": "csrc",
+        "cwd": "/home/stone/System_Verilog_Study/5_Interface/11_Tweaking_monitor_scoreboard",
+        "vcs_build_date": "Build Date = Feb 28 2019 22:34:30",
+        "master_pid": 40829,
+        "csrc_abs": "/home/stone/System_Verilog_Study/5_Interface/11_Tweaking_monitor_scoreboard/csrc",
+        "VCS_HOME": "/usr/stone/software/vcs2018/vcs/O-2018.09-SP2",
+        "hostname": "",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "rlimit": {
+        "data": -1,
+        "stack": -1
+    }
+}

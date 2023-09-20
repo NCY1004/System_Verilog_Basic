@@ -1,0 +1,58 @@
+Command: /home/stone/System_Verilog_Study/5_Interface/7_Add_generator_pt2/./simv -l simv.log +ntb_random_seed=1
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 13 23:22 2023
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+ Send data to driver
+a: 8, b: 4, sum: 0
+Interface Trigger
+a: 8, b: 4, sum: 0
+ Send data to driver
+a: 6, b: 7, sum: 0
+Interface Trigger
+a: 6, b: 7, sum: 0
+ Send data to driver
+a: 13, b: 2, sum: 0
+Interface Trigger
+a: 13, b: 2, sum: 0
+ Send data to driver
+a: 5, b: 5, sum: 0
+Interface Trigger
+a: 5, b: 5, sum: 0
+ Send data to driver
+a: 4, b: 0, sum: 0
+Interface Trigger
+a: 4, b: 0, sum: 0
+ Send data to driver
+a: 1, b: 6, sum: 0
+Interface Trigger
+a: 1, b: 6, sum: 0
+ Send data to driver
+a: 2, b: 1, sum: 0
+Interface Trigger
+a: 2, b: 1, sum: 0
+ Send data to driver
+a: 7, b: 3, sum: 0
+Interface Trigger
+a: 7, b: 3, sum: 0
+ Send data to driver
+a: 3, b: 11, sum: 0
+Interface Trigger
+a: 3, b: 11, sum: 0
+ Send data to driver
+a: 0, b: 13, sum: 0
+Interface Trigger
+a: 0, b: 13, sum: 0
+$finish called from file "add_generator.sv", line 109.
+$finish at simulation time                 2000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 200000 ps
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Wed Sep 13 23:22:15 2023

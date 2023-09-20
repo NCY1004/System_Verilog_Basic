@@ -1,0 +1,27 @@
+Command: vcs -l -sverilog -kdb -debug_access+all interface.sv add.v -lca -full64 \
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Mon Sep 11 06:34:44 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+Parsing design file 'interface.sv'
+
+Error-[SE] Syntax error
+  Following verilog source has syntax error :
+  "interface.sv", 1: token is ';'
+  interface add_if;
+                   ^
+
+1 warning
+1 error

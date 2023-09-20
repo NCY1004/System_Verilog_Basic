@@ -1,0 +1,46 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/stone/System_Verilog_Study/5_Interface/11_Tweaking_monitor_scoreboard/simv" \
+           -args "+ntb_random_seed=1"
+debImport "-dbdir" \
+          "/home/stone/System_Verilog_Study/5_Interface/11_Tweaking_monitor_scoreboard/simv.daidir"
+debLoadSimResult \
+           /home/stone/System_Verilog_Study/5_Interface/11_Tweaking_monitor_scoreboard/novas.fsdb
+wvCreateWindow
+wvResizeWindow -win $_nWave2 816 249 960 332
+srcHBDrag -win $_nTrace1
+wvRenameGroup -win $_nWave2 {G1} {dut}
+wvAddSignal -win $_nWave2 "/tb/dut/a\[3:0\]" "/tb/dut/b\[3:0\]" \
+           "/tb/dut/sum\[4:0\]" "/tb/dut/clk"
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetCursor -win $_nWave2 28.001560 -snap {("G2" 0)}
+wvSetCursor -win $_nWave2 28.054096 -snap {("dut" 4)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+srcHBSelect "tb.unnamed\$\$_0" -win $_nTrace1
+srcHBSelect "tb.aif" -win $_nTrace1
+srcHBSelect "tb" -win $_nTrace1
+srcHBDrag -win $_nTrace1
+wvSetPosition -win $_nWave2 {("dut" 0)}
+wvSetPosition -win $_nWave2 {("dut" 1)}
+wvSetPosition -win $_nWave2 {("dut" 3)}
+wvSetPosition -win $_nWave2 {("dut" 4)}
+wvSetPosition -win $_nWave2 {("G2" 0)}
+wvRenameGroup -win $_nWave2 {G2} {tb}
+wvSetPosition -win $_nWave2 {("tb" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 0)}
+wvAddSubGroup -win $_nWave2 -holdpost {aif(add_if)}
+wvAddSignal -win $_nWave2 "/tb/aif/a\[3:0\]" "/tb/aif/b\[3:0\]" \
+           "/tb/aif/sum\[4:0\]" "/tb/aif/clk"
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 4)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 4)}
+wvSetPosition -win $_nWave2 {("tb" 0)}
+wvSetPosition -win $_nWave2 {("tb/aif(add_if)" 4)}
+wvSetCursor -win $_nWave2 268.142523 -snap {("dut" 4)}
+wvTpfCloseForm -win $_nWave2
+wvGetSignalClose -win $_nWave2
+wvCloseWindow -win $_nWave2
+debExit

@@ -1,0 +1,123 @@
+Command: /home/stone/System_Verilog_Study/6_Verification_Add/./simv -l simv.log +ntb_random_seed=1
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep 18 00:38 2023
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :6, b:7, sum: 13
+Sum result matched => a: 6, b: 7, sum: 13
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :5, b:5, sum: 10
+Sum result matched => a: 5, b: 5, sum: 10
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :1, b:6, sum: 7
+Sum result matched => a: 1, b: 6, sum: 7
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :7, b:3, sum: 10
+Sum result matched => a: 7, b: 3, sum: 10
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:13, sum: 13
+Sum result matched => a: 0, b: 13, sum: 13
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :15, b:9, sum: 24
+Sum result matched => a: 15, b: 9, sum: 24
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :14, b:15, sum: 29
+Sum result matched => a: 14, b: 15, sum: 29
+--------------Send Receive Complete!--------------
+------------------------------>Random Start!!
+Random Generate Complete!
+Random data sent to DUT
+--------------Send Complete--------------
+Data sent to socreboard => a :0, b:0, sum: 0
+Sum result matched => a: 0, b: 0, sum: 0
+--------------Send Receive Complete!--------------
+$finish called from file "Verification_add.sv", line 189.
+$finish at simulation time               600000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 600000 ps
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Mon Sep 18 00:38:02 2023
